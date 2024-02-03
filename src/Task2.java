@@ -6,9 +6,9 @@ public class Task2 {
         float kilograms;
         int centimeter;
         Scanner input = new Scanner(System.in);
-        System.out.printf("Enter the weight (kg) = ");
+        System.out.print("Enter the weight (kg) = ");
         kilograms = input.nextFloat();
-        System.out.printf("Enter the height (cm) = ");
+        System.out.print("Enter the height (cm) = ");
         centimeter = input.nextInt();
 
         System.out.println();
@@ -22,7 +22,7 @@ public class Task2 {
 
         System.out.println("BMI value is = " + bmi);
         if(bmi >= 18.5 && bmi < 24.9){
-            System.out.println("Optimal BMI");;
+            System.out.println("Optimal BMI");
         }else{
             System.out.println("Not optimal BMI");
         }

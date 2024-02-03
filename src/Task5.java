@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class Task5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.printf("Enter a positive number: ");
+        System.out.println("Prime numbers are numbers that have only 2 factors: 1 and themselves. For example, the first 5 prime numbers are 2, 3, 5, 7, and 11.");
+        System.out.print("Enter a positive number: ");
         int n = scanner.nextInt();
 
         System.out.println("Prime numbers between 1 and " + n + ":");

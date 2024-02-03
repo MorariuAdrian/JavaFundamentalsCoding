@@ -7,11 +7,11 @@ public class Task3 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.printf("Enter coefficient a: ");
+        System.out.print("Enter coefficient a: ");
         double a = scanner.nextDouble();
-        System.out.printf("Enter coefficient b: ");
+        System.out.print("Enter coefficient b: ");
         double b = scanner.nextDouble();
-        System.out.printf("Enter coefficient c: ");
+        System.out.print("Enter coefficient c: ");
         double c = scanner.nextDouble();
 
         double delta = b * b - 4 * a * c;
